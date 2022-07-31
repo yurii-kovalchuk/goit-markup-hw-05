@@ -395,11 +395,19 @@ img {
     transition: background-color var(--anim-main), fill var(--anim-main);
 }
 
-.socials-link:hover,
+/* .socials-link:hover,
 .socials-link:focus {
     background-color:var(--accent-txt-cl);
     fill:var(--white-cl);
     
+    animation: rotateSocIcon 3s infinite;
+} */
+
+.socials-item:hover .socials-link,
+.socials-item:focus .socials-link{
+    background-color: var(--accent-txt-cl);
+    fill: var(--white-cl);
+
     animation: rotateSocIcon 3s infinite;
 }
 
